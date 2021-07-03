@@ -1,0 +1,177 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat", sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #f6f6f6;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title */
+
+.container-fluid{
+  padding: 3% 15% 8%;
+}
+
+#title{
+  text-align: left;
+}
+
+.navbar-brand{
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding-left: 0;
+  font-family: "ubuntu", sans-serif;
+}
+
+.nav-link{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.big-heading{
+  color: #F6F6F6;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2.7rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.iphone6{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-heading{
+  font-weight: 700;
+}
+
+.feature-icons{
+  font-size: 400%;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feature-icons:hover{
+  color: #ff4c68;
+}
+
+.feature-col{
+  padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.section-heading{
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.card-text{
+  font-weight: 700;
+}
+
+.price.text{
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* Call to Action */
+
+#cta{
+  padding: 3% 15%;
+}
+
+/* Footer */
+
+#footer{
+  padding: 3% 15%;
+}
+
+.footer-icons{
+  margin: 20px 10px;
+}
+
+/* Media query : to make our website responsive for all devices i.e., tablet, mobile */
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .iphone6{
+    position: static;
+    transform: rotate(0);
+  }
+}
